@@ -84,6 +84,7 @@ export default class RecyclerListViewContainer extends Component{
                     dataProvider={this.state.dataProvider}
                     layoutProvider = {this.layoutProvider}
                     rowRenderer={this.rowRenderer}
+                    contentContainerStyle={{ margin: 3 }}
                     onEndReached={this.handleListEnd}
                     onEndReachedThreshold={0.2}
                 />
